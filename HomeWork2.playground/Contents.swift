@@ -123,14 +123,27 @@ print("\nРозділ 1.3 Псевдоніми\n")
 * вологість - Humidity 50 %
 * температура - Сelsius 18 С
 */
+
+typealias Preasure = Int
+var preasure: Preasure = 1
+typealias Humidity = Int
+var humidity: Humidity = 70
+typealias Temperature = Int
+var temperature: Temperature = 14
+
 print("Погода вчора:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(preasure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(temperature) C")
+
+preasure = 2
+humidity = 75
+temperature = 15
+
 print("\nПогода сьогодні:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(preasure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(temperature) C")
 print("\nРозділ 1.4 Кортежі\n")
 /*
 Розділ 1.4 - Кортежі
