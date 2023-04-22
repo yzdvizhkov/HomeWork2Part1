@@ -66,20 +66,33 @@ print("\nРозділ 1.2 Змінні\n")
  print("Вік: \(someUserAge)")
  ...
 */
+
+let userFirstName: String = "Yura"
+let userLastName: String = "Zdvizhkov"
+var userAge: Int = 29
+let userHeight: Double = 180.0
+var userWeight: Double = 77
+var isUserMarried: Bool = false
+
 print("Інформація за 2018 р.:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(userFirstName)")
+print("Прізвище: \(userLastName)")
+print("Вік: \(userAge)")
+print("зріст: \(userHeight) см")
+print("Вага: \(userWeight) кг")
+print("У шлюбі: \(isUserMarried)")
+
+userAge = 34
+userWeight = 83
+isUserMarried = true
+
 print("\nІнформація за поточний рік:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(userFirstName)")
+print("Прізвище: \(userLastName)")
+print("Вік: \(userAge)")
+print("зріст: \(userHeight) см")
+print("Вага: \(userWeight) кг")
+print("У шлюбі: \(isUserMarried)")
 print("\nРозділ 1.3 Псевдоніми\n")
 /*
 Розділ 1.3 - Псевдоніми
