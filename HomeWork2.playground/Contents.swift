@@ -173,15 +173,25 @@ profileInfo
  print("\nІнфорація про погоду:")
  print("Температура: \(weatherInfo.1)")
 */
-print("Прізвище: ")
-print("Вік: ")
-print("Зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+
+var profileInfo = (firstName: userFirstName, lastName: userLastName, age: userAge, height: userHeight, weight: userWeight, isMarried: isUserMarried)
+
+var weatherInfo = (preasure: preasure, humidity: humidity, temperature: temperature)
+
+profileInfo.weight = 84
+profileInfo.age = 35
+
+weatherInfo.temperature = 20
+
+print("Прізвище: \(profileInfo.lastName)")
+print("Вік: \(profileInfo.age)")
+print("Зріст: \(profileInfo.height) см")
+print("Вага: \(profileInfo.weight) кг")
+print("У шлюбі: \(profileInfo.isMarried)")
 print("\nІнфорація про погоду:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(weatherInfo.preasure) hPa")
+print("Вологість: \(weatherInfo.humidity) %")
+print("Температура: \(weatherInfo.temperature) C")
 print("\nРозділ 1.5 Опціонали\n")
 /*
 Розділ 1.5 - Опціонали
